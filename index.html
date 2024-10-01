@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aventura</title>
+</head>
+
+<body>
+    <main>
+        <section>
+            <div class="passo ativo" id="passo-0">
+                <p>Você é um(a) explorador(a) em uma terra desconhecida e encontra duas estradas à sua frente. Uma leva
+                    a uma floresta densa e misteriosa, e a outra, a uma montanha imponente. Qual caminho você escolhe?
+                </p>
+                <button class="btn-proximo" data-proximo="1">Floresta Densa</button>
+                <button class="btn-proximo" data-proximo="2">Montanha Imponente</button>
+            </div>
+
+            <div class="passo" id="passo-1">
+                <p>Você decide seguir o caminho da floresta densa. À medida que avança, a vegetação se torna cada vez
+                    mais espessa, e a luz do sol mal consegue penetrar as copas das árvores. O som dos pássaros e o
+                    farfalhar das folhas são as únicas coisas que quebram o silêncio. Após um tempo caminhando, você
+                    chega a uma bifurcação na trilha.
+                    À esquerda, o caminho parece ser mais estreito e coberto de plantas espinhosas, mas você consegue
+                    ver uma luz fraca no final. À direita, o caminho é mais largo e limpo, com sinais de que outros já
+                    passaram por ali recentemente.</p>
+                <button class="btn-proximo" data-proximo="3">Caminho à esquerda</button>
+                <button class="btn-proximo" data-proximo="4">Caminho à direita</button>
+            </div>
+
+                <div class="passo" id="passo-2">
+                    <p>Você opta pela montanha imponente. À medida que sobe, o terreno fica cada vez mais íngreme e o ar
+                        mais rarefeito. Depois de algum tempo, você encontra uma antiga caverna, parcialmente escondida
+                        por rochas e vegetação. Dentro da caverna, há duas saídas: uma leva para um túnel escuro e
+                        profundo, e a outra para uma escada de pedra que sobe em espiral.</p>
+                    <button class="btn-proximo" data-proximo="5">Túnel Escuro</button>
+                    <button class="btn-proximo" data-proximo="6">Escala de Pedra</button>
+                </div>
+
+                <div class="passo" id="passo-3">
+                        <p>Você decide seguir o caminho à esquerda, com a luz fraca ao fundo. À medida que avança, as
+                            plantas espinhosas arranham suas roupas e pele, mas você consegue manter o foco na luz.
+                            Finalmente, você chega a uma pequena clareira onde a luz vem de uma fonte misteriosa.
+                            No centro da clareira, há uma fonte de água cristalina com uma pedra brilhante no fundo. Ao
+                            redor da fonte, há símbolos antigos esculpidos nas rochas e uma sensação de tranquilidade no
+                            ar.
+                            Você nota também uma pequena abertura na parede da clareira que leva a um túnel estreito,
+                            que parece ser fundo.</p>
+                        <button class="btn-proximo" data-proximo="7">Entrar no Túnel Estreito</button>
+                </div>
+
+                        <div class="passo" id="passo-4">
+                            <p> Você opta por seguir o caminho à direita, que é mais largo e limpo. À medida que avança,
+                                você percebe que a trilha foi recentemente percorrida, com marcas de pegadas e sinais de
+                                que alguém passou por ali antes de você. O som dos pássaros e o farfalhar das folhas
+                                continuam, mas você também ouve murmúrios distantes, como se alguém estivesse
+                                conversando.
+                                Depois de um tempo, você chega a uma clareira onde encontra uma pequena cabana feita de
+                                madeira rústica. A cabana parece abandonada, mas há fumaça saindo de uma chaminé,
+                                indicando que alguém pode estar lá dentro.</p>
+                        </div>
+                            <div class="passo" id="passo-5">
+                                <p> Você decide explorar o túnel escuro. Com uma tocha acesa para iluminar seu caminho,
+                                    você avança cuidadosamente, a escuridão ao redor é quase total, e o som de suas
+                                    próprias passadas ecoa nas paredes rochosas. Após algum tempo, você nota um túnel
+                                    estreito escondido atrás de um manto de vegetação e pedras no canto. A entrada do
+                                    túnel é pequena e parece levar a um caminho mais fundo sob a terra.</p>
+                                <button class="btn-proximo" data-proximo="7">Entrar no Túnel Estreito</button>
+                            </div>
+
+                                <div class="passo" id="passo-6">
+                                    <p>Você decide subir pela escada de pedra. À medida que avança, a escada em espiral
+                                        parece interminável, com os degraus desgastados e cobertos de musgo. O ar se
+                                        torna mais fresco e a luz da tocha reflete nas paredes úmidas, criando sombras
+                                        dançantes.
+                                        Após uma subida longa, a escada leva a uma plataforma de pedra que se abre para
+                                        uma vista deslumbrante. Você está agora em uma espécie de mirante natural, com
+                                        uma vista panorâmica das montanhas ao redor e do vale abaixo. No centro da
+                                        plataforma, há uma estrutura de pedra antiga que parece ser um altar.
+                                        Você nota também uma entrada de caverna em uma das laterais da plataforma,
+                                        coberta por uma cortina de musgo.</p>
+                                    <button class="btn-proximo" data-proximo="8"> Explorar a Entrada da Caverna Coberta
+                                        por Musgo</button>
+                                </div>
+
+                                    <div class="passo" id="passo-7">
+                                        <p>Optando por um túnel estreito e aparentemente menor, você se depara com uma entrada que mal permite a passagem, exigindo que você se abaixe e avance com cautela. À medida que entra, o túnel se torna cada vez mais apertado, e você deve rastejar para seguir em frente. O ar é úmido e o cheiro de terra e pedra é forte. Depois de um longo trecho, o túnel faz uma curva acentuada e desce ligeiramente. O espaço continua pequeno e confinado, tornando a respiração um pouco mais difícil. Finalmente, você chega a uma pequena câmara, mal iluminada e repleta de poeira. No centro da câmara, há uma pequena pedra com inscrições antigas e, ao lado, uma caixa de metal enferrujada. O ambiente é silencioso, e a sensação de estar em um espaço tão apertado e escondido é quase palpável.</p>
+                                        <button class="btn-proximo" data-proximo="9">  Tentar Decifrar as Inscrições na Pedra</button>
+                                     <button class="btn-proximo" data-proximo="10"> Forçar a Abertura da Caixa de Metal</button>
+                                    </div>
+
+                                    <div class="passo" id="passo-8">
+                                        <p>Você decide explorar a entrada da caverna coberta por musgo. Ao remover o musgo, você revela uma passagem estreita e escura que desce em direção à escuridão. A entrada do túnel é pequena e um pouco obstruída por pedras soltas.
+                                            Enquanto você avança pelo túnel, percebe que a passagem se torna cada vez mais estreita e o ar mais úmido. Após um trecho, o túnel se alarga um pouco e leva a uma nova câmara subterrânea. Dentro da câmara, há um pequeno altar de pedra e um baú antigo em um canto. Você também vê um outro túnel estreito, ainda mais escuro, que se conecta à câmara e parece levar mais fundo na montanha.</p>
+                                        <button class="btn-proximo" data-proximo="7"> Entrar no Túnel Estreito</button>
+                                     </div>
+
+                                     <div class="passo" id="passo-9">
+                                        <p>Você decide tentar decifrar as inscrições na pedra. s símbolos são enigmáticos, mas você consegue identificar alguns padrões repetitivos que parecem representar uma forma de proteção ou um encantamento de defesa. Ao comparar os símbolos com alguns fragmentos visíveis do texto, você percebe que eles falam sobre um "código para o poder oculto" e mencionam algo sobre "abrir o caminho" para "aqueles que buscam verdadeiramente".
+                                            Parece que a pedra pode ser uma chave ou uma pista para algo mais profundo na caverna ou talvez um guia para outro local escondido. A sensação é de que decifrar completamente o significado pode revelar uma maneira de acessar algo significativo.
+                                            Você percebe que, com base nas inscrições, pode haver uma interação específica necessária com a pedra ou a caixa de metal para desbloquear o que está escondido. A passagem estreita também continua a chamar sua atenção como uma possível conexão com o que você está tentando descobrir.</p>
+                                        <button class="btn-proximo" data-proximo="11">Explorar a Passagem Bifurcada no Túnel</button>
+                                     </div>
+
+                                     <div class="passo" id="passo-10">
+                                        <p>Você decide forçar a abertura da caixa de metal. Com um pouco de esforço, você usa uma ferramenta improvisada, como um pedaço de pedra ou uma alavanca, para tentar abrir a caixa. O mecanismo de fechamento é complicado, mas você consegue girar e pressionar até ouvir um clique.
+                                            A caixa se abre com um rangido e você encontra dentro um conjunto de objetos antigos: uma pequena chave dourada, um amuleto com um símbolo mágico e um pergaminho enrolado. O amuleto parece ter uma aura sutil de magia e o pergaminho está fechado com um selo de cera.
+                                            Enquanto examina o conteúdo da caixa, você percebe que o túnel estreito continua a chamar sua atenção. A sensação de que há algo mais a ser descoberto no túnel é forte.</p>
+                                        <button class="btn-proximo" data-proximo="12">Examinar o Amuleto e o Pergaminho</button>
+                                     </div>
+
+                                     <div class="passo" id="passo-11">
+                                        <p>Você decide seguir o mapa e explorar a passagem bifurcada no túnel. O símbolo destacado no mapa, que corresponde ao amuleto, sugere que essa é a direção certa. A passagem é apertada e sinuosa, mas a sua determinação e a sensação crescente de que algo importante está próximo o guia
+                                            Após alguns momentos de caminhada, você chega a uma porta antiga, coberta com runas semelhantes às do amuleto. A energia do amuleto parece intensificar à medida que você se aproxima da porta. Usando uma pequena chave dourada, você desbloqueia a porta, que se
+                                            O que você encontra além da porta é um amplo salão, iluminado por uma luz mística que parece vir de fontes ocultas. O espaço está cheio de artefatos antigos e relíquias mágicas, empilhadas de maneira ordenada. No centro do salão, um pedestal sustenta um livro antigo
+                                            Ao abrir o livro, você descobre que ele contém conhecimentos antigos e segredos profundos sobre a caverna e seu encantamento protetor. A descoberta revela um poder oculto que estava esperando para ser desbloqueado por alguém digno. O amuleto e o mapa desempenharam papéis cruciais em sua jornada, levando-o a esta revelação.
+                                            Você sente uma profunda satisfação ao descobrir que sua busca foi bem-sucedida e que o verdadeiro potencial da caverna foi finalmente revelado. Uma jornada que começou com símbolos enigmáticos e uma caixa misteriosa culminou na descoberta de um conhecimento valioso e na realização de um grande mistério.
+                                            Enquanto examina o conteúdo da caixa, você percebe que o túnel estreito continua a chamar sua atenção. A sensação de que há algo mais a ser descoberto no túnel é forte.</p>
+                                     </div>
+
+                                     <div class="passo" id="passo-12">
+                                     <p>Você decide examinar o amuleto e o pergaminho encontrados na caixa de metal.
+                                        Amuleto: O amuleto é um pequeno pendente de metal com um símbolo mágico gravado em sua superfície. A gravura é intricada e parece representar uma combinação de runas antigas. Quando você o segura, sente uma leve vibração, como se o amuleto estivesse reagindo à sua presença. A sensação de energia mágica é sutil, mas perceptível. É possível que o amuleto tenha algum propósito ou possa ser uma chave para algo na caverna.
+                                        Pergaminho: O pergaminho está selado com um selo de cera, que você quebra cuidadosamente. Quando desdobra o pergaminho, descobre que é um mapa antigo com várias marcas e anotações. O mapa parece mostrar a estrutura da caverna e inclui uma série de símbolos que correspondem às inscrições na pedra.
+                                        Uma área destacada no mapa está marcada com um símbolo que parece corresponder ao amuleto. Também há uma indicação de um local específico na caverna que não foi explorado ainda, possivelmente a área que você viu antes na bifurcação do túnel. A sensação de que há algo mais a ser descoberto no túnel é forte.</p>
+                                  </div>
+
+
+
+
+
+
+
+
+
+                                        <div>
+                                        </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
